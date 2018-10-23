@@ -5,7 +5,7 @@
     #modified_collection << yield(array[i])
     #i += 1
   #end
-  
+  modified_collection
 #end
 
 
