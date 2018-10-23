@@ -1,3 +1,5 @@
+
+require "pry"
 my_collect(array)
   modified_collection = []
   i = 0
