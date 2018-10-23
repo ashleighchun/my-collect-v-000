@@ -1,6 +1,6 @@
 
 require "pry"
-my_collect(array)
+def my_collect(array)
   modified_collection = []
   i = 0
   binding.pry
