@@ -1,12 +1,12 @@
-#my_collect(array)
-  #modified_collection = []
-  #i = 0
-  #while i < array.length
-    #modified_collection << yield(array[i])
-    #i += 1
-  #end
+my_collect(array)
+  modified_collection = []
+  i = 0
+  while i < array.length
+    modified_collection << yield(array[i])
+    i += 1
+  end
   modified_collection
-#end
+end
 
 
 
