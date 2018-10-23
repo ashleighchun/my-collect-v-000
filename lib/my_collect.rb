@@ -1,8 +1,8 @@
-my_collect(collection)
-  modified_collection=[]
+my_collect(array)
+  modified_collection = []
   i = 0
-  while i < collection.length
-    modified_collection << yield(collection[i])
+  while i < array.length
+    modified_collection << yield(array[i])
     i += 1
   end
   
